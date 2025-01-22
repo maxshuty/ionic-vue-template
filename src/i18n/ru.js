@@ -10,6 +10,7 @@ export default {
       LOCALE_NAME: 'Pусский',
       NO_RESULTS_FOUND: 'Ничего не найдено',
       PAGE_NOT_FOUND: 'Страница не найдена',
+      REQUIRED: '(Обязательное поле)',
       SHOW_LESS: 'Скрыть',
       SHOW_MORE: 'Показать еще',
       SUBMIT: 'Отправить',

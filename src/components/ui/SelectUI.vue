@@ -7,7 +7,10 @@
         :value="defaultValue"
       >
         <div v-if="label" slot="label">
-          {{ label }} <ion-text color="danger">(Required)</ion-text>
+          {{ label }}
+          <ion-text color="danger" v-if="showLabelRequired">
+            {{ $t(COMMON.REQUIRED) }}
+          </ion-text>
         </div>
 
         <template v-for="(option, index) in options" :key="index">
@@ -59,6 +62,11 @@ export default {
       type: Array,
       required: true,
       note: `The select options, shaped like [{displayTitle: '', value: ''}]. Required`,
+    },
+    showLabelRequired: {
+      type: Boolean,
+      default: false,
+      note: 'Whether or not to show the (Required) label. Default `false`',
     },
   },
   methods: {

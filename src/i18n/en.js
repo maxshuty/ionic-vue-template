@@ -10,6 +10,7 @@ export default {
       LOCALE_NAME: 'English',
       NO_RESULTS_FOUND: 'No results found',
       PAGE_NOT_FOUND: 'Page not found',
+      REQUIRED: '(Required)',
       SHOW_LESS: 'Show less',
       SHOW_MORE: 'Show more',
       SUBMIT: 'Submit',
