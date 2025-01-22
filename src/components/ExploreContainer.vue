@@ -10,6 +10,13 @@
       @change="switchLanguage"
     />
     <strong>Sample translation: {{ $t('COMMON.LOCALE_NAME') }}</strong>
+
+    <ion-tab-button href="/login">
+      <ion-label>Login i18n</ion-label>
+    </ion-tab-button>
+    <ion-tab-button href="/register">
+      <ion-label>Register i18n</ion-label>
+    </ion-tab-button>
   </div>
 </template>
 
